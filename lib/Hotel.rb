@@ -11,5 +11,4 @@ class TopUSHotel::Hotel
     @url = url
   end
 
-  #testing commit changes
 end
