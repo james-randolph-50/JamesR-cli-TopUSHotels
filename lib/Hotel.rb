@@ -11,4 +11,9 @@ class TopUSHotel::Hotel
     @url = url
   end
 
+  def self.all
+    @@all
+  end
+
+
 end
