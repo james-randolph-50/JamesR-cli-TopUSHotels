@@ -16,5 +16,9 @@ require_relative '../lib/TopUSHotels'
       @@all
     end
 
+    def self.find(hotel_rank)
+      self.all[hotel_rank-1]
+    end
+
 
   end
