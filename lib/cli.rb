@@ -14,6 +14,15 @@ class TopUSHotels::CLI
     puts "Which hotel would you like more information on?"
     input = gets.strip.to_i-1
 
+    hotel = TopUSHotels::Hotel.find(input)
+
+    show_hotel(hotel)
+
+    puts "Would you like to see another?"
+    input = gets.strip.downcase
+    if input == "y" || "yes"
+
+
   end
 
 end
