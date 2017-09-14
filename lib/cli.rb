@@ -1,0 +1,3 @@
+class TopUSHotels::CLI
+
+end
